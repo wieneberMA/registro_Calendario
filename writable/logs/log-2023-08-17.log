@@ -1,0 +1,108 @@
+CRITICAL - 2023-08-17 05:29:17 --> The framework needs the following extension(s) installed and loaded: intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(227): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+ 2 SYSTEMPATH\CodeIgniter.php(191): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-08-17 05:29:17 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\xampp\htdocs\codeigniter\system\CLI\CLI.php:872
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\xampp\htdocs\codeigniter\system\CLI\CLI.php(1115): CodeIgniter\CLI\CLI::init()
+#2 C:\xampp\htdocs\codeigniter\system\Autoloader\Autoloader.php(314): include_once('...')
+#3 C:\xampp\htdocs\codeigniter\system\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 C:\xampp\htdocs\codeigniter\system\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 C:\xampp\htdocs\codeigniter\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 C:\xampp\htdocs\codeigniter\system\Debug\Exceptions.php(282): include('...')
+#7 C:\xampp\htdocs\codeigniter\system\Debug\Exceptions.php(285): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\xampp\htdocs\codeigniter\system\Debug\Exceptions.php(156): CodeIgniter\Debug\Exceptions->render()
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#10 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl, mbstring.
+#0 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(227): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(191): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter\spark(83): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\CLI\CLI.php on line 872.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-17 05:33:14 --> The framework needs the following extension(s) installed and loaded: intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(227): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+ 2 SYSTEMPATH\CodeIgniter.php(191): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-08-17 05:33:14 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\xampp\htdocs\codeigniter\system\CLI\CLI.php:872
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\xampp\htdocs\codeigniter\system\CLI\CLI.php(1115): CodeIgniter\CLI\CLI::init()
+#2 C:\xampp\htdocs\codeigniter\system\Autoloader\Autoloader.php(314): include_once('...')
+#3 C:\xampp\htdocs\codeigniter\system\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 C:\xampp\htdocs\codeigniter\system\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 C:\xampp\htdocs\codeigniter\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 C:\xampp\htdocs\codeigniter\system\Debug\Exceptions.php(282): include('...')
+#7 C:\xampp\htdocs\codeigniter\system\Debug\Exceptions.php(285): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\xampp\htdocs\codeigniter\system\Debug\Exceptions.php(156): CodeIgniter\Debug\Exceptions->render()
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#10 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl, mbstring.
+#0 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(227): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\xampp\htdocs\codeigniter\system\CodeIgniter.php(191): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter\spark(83): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\CLI\CLI.php on line 872.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-17 07:52:26 --> The framework needs the following extension(s) installed and loaded: "mbstring".
+in SYSTEMPATH\CodeIgniter.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(227): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(191): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-08-17 07:52:44 --> The framework needs the following extension(s) installed and loaded: "mbstring".
+in SYSTEMPATH\CodeIgniter.php on line 227.
+ 1 SYSTEMPATH\CodeIgniter.php(227): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(191): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-08-17 05:54:07 --> Invalid file: "calendario_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('calendario_view.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('calendario_view', [], true)
+ 3 APPPATH\Controllers\CalendarioController.php(14): view('calendario_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendariocontroller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendariocontroller))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-17 05:57:49 --> Undefined variable $user
+in APPPATH\Views\calendario_lista.php on line 28.
+ 1 APPPATH\Views\calendario_lista.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\calendario_lista.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\calendario_lista.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('calendario_lista', [], true)
+ 5 APPPATH\Controllers\CalendarioController.php(14): view('calendario_lista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendariocontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendariocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-17 05:58:41 --> Undefined variable $user
+in APPPATH\Views\calendario_lista.php on line 28.
+ 1 APPPATH\Views\calendario_lista.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\calendario_lista.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\calendario_lista.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('calendario_lista', [], true)
+ 5 APPPATH\Controllers\CalendarioController.php(14): view('calendario_lista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Calendariocontroller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendariocontroller))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-17 22:21:08 --> Undefined variable $cita
+in APPPATH\Views\Calendario.php on line 24.
+ 1 APPPATH\Views\Calendario.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cita', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\Calendario.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\Calendario.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Calendario', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('Calendario')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
